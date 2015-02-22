@@ -1,19 +1,31 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  etensions:  ["tables"]
+
+highlighter: pygments
+
 # Permalinks
 permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         1
+title:            Gabi Huiber
+tagline:          'noodling in the data stream'
+url:              http://ghuiber.github.io
 baseurl:          /
+paginate:         1
+
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           'Gabi Huiber'
+  url:            https://twitter.com/ghuiber
+  email:          ghuiber@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/ghuiber/ghuiber.github.io
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
