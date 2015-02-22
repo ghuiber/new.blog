@@ -17,7 +17,8 @@
       </header>
 
       <main>
-        {{ content }}
+      {{ content }}
+      {% include comments.html %}
       </main>
 
       <footer class="footer">
@@ -27,5 +28,6 @@
       </footer>
     </div>
 
+    {% include google_analytics.html %}  
   </body>
 </html>
